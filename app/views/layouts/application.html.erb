@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<head>
+<style type="text/css">
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#98bf21;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+}
+a:hover,a:active
+{
+background-color:#7A991A;
+}
+</style>
+</head>
+  <title>Cms</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+<div class="sites">
+<%= yield %>
+</div>
+ <div id="banner" >
+ <%= image_tag("rails.png") %>
+ 
+ <%= @page_title || "Content Managment System" %>
+ </div>
+ <div id="columns" >
+ <div id="side" >
+
+
+ <a href="http://www.google.com" >google</a><br />
+ <a href="http://www.1keydata.com/css-tutorial/codes.php" >1keydata</a><br />
+ <a href="http://www.w3.org/Style/Examples/011/firstcss#external" >w3.org</a><br />
+ <a href="http://www.w3schools.com/css/css_background.asp" >w3school</a><br />
+ <a href="http://www.w3schools.com/cssref/css3_pr_background.asp" >css background</a><br />
+ <a href="http://www.w3schools.com/css/css_background.asp" >css toutorial</a><br />
+ <a href="http://www.tizag.com/cssT/internal.php" >tizag</a><br />
+ <a href="http://www.quackit.com/css/properties/" >css staylesheet</a><br />
+  <a href="http://www.google.com" >google</a><br />
+ <a href="http://www.1keydata.com/css-tutorial/codes.php" >1keydata</a><br />
+ <a href="http://www.w3.org/Style/Examples/011/firstcss#external" >w3.org</a><br />
+ <a href="http://www.w3schools.com/css/css_background.asp" >w3school</a><br />
+</div>	
+ <div id="main" >
+ <%= yield %>
+ </div>	
+ </div>
+</body>
+</html>
