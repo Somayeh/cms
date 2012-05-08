@@ -8,7 +8,7 @@
 Site.delete_all
 # . . .
 Site.create(:title => 'Project Management',
-:permalink =>
+            :permalink =>
 %{<p>
 Projects must operate in a broad organizational
 environment
