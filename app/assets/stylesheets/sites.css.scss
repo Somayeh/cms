@@ -1,18 +1,12 @@
 .sites {
-
-ul li td {
-padding: 2px;
-vertical-align: center;
-}
-
 .list_permalink {
 width: 100%;
-margin-right:auto;
+
 font:40px/40px "Times New Roman", serif;
 text-decoration:blink;
 color: purple;
 font-weight:bold ;
-font-size: larger;
+font-size: small;
 }
 .list_actions {
 font-size: small;
@@ -26,39 +20,5 @@ color: green;
 background-image:url('d.jpg');
      color: green;
 }
-    #banner {
-background: black;
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left: 20px;
-border-bottom: 2px solid;
-font: small-caps 40px/40px "Times New Roman", serif;
-color: purple;
-text-align: center;
-}
-#banner img {
-float: left;
-}
-#columns {
-background: black;
-}
-#main {
-margin-right: 17em;
-padding-top: 5ex;
-padding-left: 25em;
-background: pink;
-}
-#side {
-float: left;
-padding-top: 1em;
-padding-left: 1em;
-padding-bottom: 1em;
-width: 17em;
-background: black;
-}
-#side a {
-color: purple;
-font-size: small;
 
-}
 }

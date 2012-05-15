@@ -7,3 +7,32 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.ui 4 4 2012-05-08 09:43:36.741
 !MESSAGE Unable to find Action Set: com.aptana.editor.php.presentation
+
+!ENTRY com.aptana.usage 4 0 2012-05-08 20:08:08.520
+!MESSAGE (Build 3.0.0.1329151902) [ERROR]  Unable to connect to database
+!STACK 0
+java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:135)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:58)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:53)
+	at com.aptana.usage.AnalyticsLogger.logEvent(AnalyticsLogger.java:53)
+	at com.aptana.usage.StudioAnalytics$1.run(StudioAnalytics.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 20 more

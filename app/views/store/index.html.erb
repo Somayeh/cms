@@ -1,0 +1,13 @@
+
+<h1>Listing Page</h1>
+<% if notice %>
+<p id="notice"><%= notic %></p>
+<% end %>
+<% @sites.each do |site| %>
+	<div class="entry">
+		<h3><%= site.title %></h3>
+		<%= sanitize(site.permalink) %>
+	</div>
+<% end %>
+
+</body>
