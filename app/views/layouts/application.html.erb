@@ -1,35 +1,47 @@
 <!DOCTYPE html>
-<html> 
-  <title>Cms</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-<body id="store" >
- <div id="banner" >
- <%= image_tag("rails.png") %>
- 
- <%= @page_title || "Content Managment System" %>
- </div>
- <div id="columns" >
- <div id="side" >
- 	<a href="http://www.google.com" >google</a><br />
- <a href="http://www.1keydata.com/css-tutorial/codes.php" >1keydata</a><br />
- <a href="http://www.w3.org/Style/Examples/011/firstcss#external" >w3.org</a><br />
- <a href="http://www.w3schools.com/css/css_background.asp" >w3school</a><br />
- <a href="http://www.w3schools.com/cssref/css3_pr_background.asp" >css background</a><br />
- <a href="http://www.w3schools.com/css/css_background.asp" >css toutorial</a><br />
- <a href="http://www.tizag.com/cssT/internal.php" >tizag</a><br />
- <a href="http://www.quackit.com/css/properties/" >css staylesheet</a><br />
-  <a href="http://www.google.com" >google</a><br />
- <a href="http://www.1keydata.com/css-tutorial/codes.php" >1keydata</a><br />
- <a href="http://www.w3.org/Style/Examples/011/firstcss#external" >w3.org</a><br />
- <a href="http://www.w3schools.com/css/css_background.asp" >w3school</a><br />
-</div>	
- 	
- <div id="main" >
- <%= yield %>
- </div>	
- </div>	
- </div>
-</body>
+<html>
+	<title>Cms</title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
+	<body id="store" >
+		<div id="warp" >
+					<div id="side" >
+						
+							<div id="comment">
+					<% if @comment %>
+				
+				
+				
+					<%= render @comment%>
+					<% end %>
+					
+					</div>
+					
+       		<div id="banner" >
+       			<h1>Book Stor</h1>
+					<div id="banner header"><%= image_tag("header.jpg") %>
+						
+					
+						<div id="menu">
+							<ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">product</a></li>
+        <li><a href="http://www.ruby-doc.org/docs/Tutorial/">about Us</a></li>
+        <li><a href="http://www.readingfanatic.com/index.jhtml?partner=^AIC^xdm007&gclid=CLG1-vCW47ICFUXHtAoddxIAmQ">book shop</a></li>
+        <li><a href="http://books.google.com/">google books</a></li>
+    </ul>
+    </div> 
+	
+    </div>	
+    </div>
+    
+			<div id="main" >
+				<%= yield %>
+			
+
+		</div>
+		</div>
+
+	</body>
 </html>

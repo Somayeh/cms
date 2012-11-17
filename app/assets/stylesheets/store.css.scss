@@ -1,50 +1,75 @@
+body
+{
+background-color:#6F605A;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px auto auto auto;
+color:#000000;
+
+a{
+color:#f8981d;
+}
+#wrap{
+width:900px;
+height: auto;
+margin:auto;
+background-color:#FFFFFF;
+}
 #banner {
-background: black;
-padding-top: 12px;
-padding-bottom: 20px;
-padding-left: 10px;
-border-bottom: 15px solid;
-border-top: 15px solid;
-border-right: 15px solid;
-border-left: 15px solid;
+background: #6F605A;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 1px;
+
 font: small-caps 40px/40px "Times New Roman", serif;
-color: purple;
+color: #94714D;
 text-align: center;
 }
-#banner img {
-float: left;
-}
-#columns {
-background: black;
+#banner header{
+  margin-left: auto;
+margin-right: auto;
+width:900px;
+height:181px;
+background:url(images/header.jpg) no-repeat center;
+
 }
 #main {
-margin-right: 17em;
-margin-left: 17em;
-padding-top: 5ex;
+margin-right: 15em;
+margin-left: 15em;
+padding-top: 3em;
 padding-left: 3em;
-background: pink;
+background:  #94714D;
 }
 #side {
-float: left;
-padding-top: 1em;
-padding-left: 1em;
+float: center;
+padding-top: 0em;
+padding-left: 0em;
 padding-bottom: 1em;
-background: black;
+background: #6F605A;
 }
-#side a {
-color: purple;
-font-size: small;
+
+#menu {
+ 
+  margin: 0px 0px 0px 0px;
+  padding: 6px 6px 0px 6px;
+  height: 34px;
+  line-height: 100%;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  box-shadow: 2px 2px 3px #666666;
+  -webkit-box-shadow: 2px 2px 3px #666666;
+  -moz-box-shadow: 2px 2px 3px #666666;
+  background: #8B8B8B;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A9A9A9, endColorstr=#7A7A7A);
+  background: -webkit-gradient(linear, left top, left bottom, from(#A9A9A9), to(#7A7A7A));
+  background: -moz-linear-gradient(top,  #A9A9A9,  #7A7A7A);
+  border: solid 1px #94714D;
 }
-a:link,a:visited {
-display:block;
-font-weight:bold;
-color:purple;
-background-color:#98bf21;
-width:120px;
-text-align:center;
-padding:4px;
-text-decoration:none;
+#menu li {
+    display:inline;
+    margin:0 50px 
 }
-a:hover,a:active {
-background-color:#7A991A;
+
 }

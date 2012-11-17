@@ -1,9 +1,12 @@
 class SitesController < ApplicationController
+  
+ 
   # GET /sites
   # GET /sites.json
   def index
-    @sites = Site.all
-
+   # @sites = Site.all
+ @sites=Site.paginate :page=>params[:site], :order=>'created_at desc',
+:per_page => 4
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @sites }
@@ -44,11 +47,14 @@ class SitesController < ApplicationController
 
     respond_to do |format|
       if @site.save
-        format.html { redirect_to @site, notice: 'Site was successfully created.' }
-        format.json { render json: @site, status: :created, location: @site }
+        format.html { redirect_to(store_url)}
+        format.js
+        format.xml { render :xml => @site,
+           :status => :created, :location => @site }
       else
         format.html { render action: "new" }
-        format.json { render json: @site.errors, status: :unprocessable_entity }
+        format.xml { render :xml => @site.errors, 
+          status: :unprocessable_entity }
       end
     end
   end

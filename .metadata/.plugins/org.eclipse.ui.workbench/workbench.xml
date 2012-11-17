@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="36" version="2.0">
 <workbenchAdvisor/>
-<window height="770" maximized="true" width="1200" x="46" y="0">
+<window height="584" maximized="true" width="781" x="241" y="440">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,9 +17,10 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.sass" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.aptana.editor.yaml" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.php" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.sass" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.yaml" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -32,17 +33,42 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.aptana.editor.yaml" name="sites.yml" partName="sites.yml" title="sites.yml" tooltip="F:\Ruby code\cms\test\fixtures\sites.yml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/test/fixtures/sites.yml"/>
+<editor id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb | store" title="index.html.erb | store" tooltip="F:\Ruby code\cms\app\views\store\index.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/views/store/index.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="application.html.erb" partName="application.html.erb" title="application.html.erb" tooltip="F:\Ruby code\cms\app\views\layouts\application.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/views/layouts/application.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="307" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.sass" name="store.css.scss" partName="store.css.scss" title="store.css.scss" tooltip="F:\Ruby code\cms\app\assets\stylesheets\store.css.scss" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/store.css.scss"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="627" selectionTopPixel="374"/>
+</editor>
+<editor id="com.aptana.editor.sass" name="sites.css.scss" partName="sites.css.scss" title="sites.css.scss" tooltip="F:\Ruby code\cms\app\assets\stylesheets\sites.css.scss" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/sites.css.scss"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="264" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb | sites" title="index.html.erb | sites" tooltip="F:\Ruby code\cms\app\views\sites\index.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/views/sites/index.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="125" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="site.rb" partName="site.rb" title="site.rb" tooltip="F:\Ruby code\cms\app\models\site.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/app/models/site.rb"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="site_test.rb" partName="site_test.rb" title="site_test.rb" tooltip="F:\Ruby code\cms\test\unit\site_test.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/F:/Ruby%20code/cms/test/unit/site_test.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.php" name="viewtopic.php" partName="viewtopic.php" title="viewtopic.php" tooltip="C:\Users\Somayeh Azimi\Desktop\joomla\viewtopic.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Somayeh%20Azimi/Desktop/joomla/viewtopic.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -75,7 +101,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.aptana.terminal.views.terminal:functional" activePerspective="com.aptana.ui.WebPerspective">
+<perspectives activePart="com.aptana.editor.php" activePerspective="com.aptana.ui.WebPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
 <alwaysOnActionSet id="com.aptana.browser.actionSet"/>
@@ -148,7 +174,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.1521739" ratioLeft="189" ratioRight="1053" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.75" ratioLeft="510" ratioRight="170" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.aptana.terminal.views.terminal:functional" appearance="2" expanded="2">
+<folder activePageID="com.aptana.terminal.views.terminal:store" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="com.aptana.terminal.views.terminal:functional" label="functional"/>
@@ -165,7 +191,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1743ff4" ratio="0.75" ratioLeft="510" ratioRight="170" relationship="4" relative="left">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -178,157 +204,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/F:/Ruby%20code/depot/test/functional/store_controller_test.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.yaml" uri="file:/F:/Ruby%20code/depot/test/fixtures/products.yml"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/F:/Ruby%20code/depot/app/views/products/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/F:/Ruby%20code/depot/app/assets/stylesheets/products.css.scss"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/F:/Ruby%20code/depot/app/assets/stylesheets/store.css.scss"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/F:/Ruby%20code/depot/app/views/store/index.html.erb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/F:/Ruby%20code/cms/test/unit/site_test.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.yaml" uri="file:/F:/Ruby%20code/cms/test/fixtures/sites.yml"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/F:/Ruby%20code/cms/app/views/store/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/F:/Ruby%20code/cms/app/views/layouts/application.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/store.css.scss"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/sites.css.scss"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/F:/Ruby%20code/cms/app/models/site.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/F:/Ruby%20code/cms/app/views/sites/index.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/Users/Somayeh%20Azimi/Desktop/joomla/viewtopic.php"/>
 </editors>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="1" y="0"/>
-</item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="344" y="0"/>
-</item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="20"/>
-</item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="267" y="20"/>
-</item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="20"/>
-</item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="267" y="20"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="378" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="378" y="0"/>
-</item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="302" y="1"/>
-</item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="302" y="1"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="225" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="191" y="25"/>
-</item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="318" y="0"/>
-</item>
-<item historyLabel="index.html.erb | products" index="2">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="index.html.erb | store" index="5">
+<item historyLabel="application.html.erb" index="1">
 <position/>
 </item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html.erb | store" index="5">
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
 <position/>
 </item>
-<item historyLabel="index.html.erb" index="2">
-<position info="not_deleted" x="266" y="20"/>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="index.html.erb | store" index="5">
+<item historyLabel="application.html.erb" index="1">
 <position/>
 </item>
-<item historyLabel="index.html.erb | products" index="2">
-<position info="not_deleted" x="266" y="20"/>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="734" y="1"/>
 </item>
-<item historyLabel="index.html.erb | store" index="5">
-<position info="not_deleted" x="213" y="0"/>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="products.css.scss" index="3">
-<position info="not_deleted" x="466" y="0"/>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="25" y="0"/>
 </item>
-<item historyLabel="index.html.erb | products" index="2">
-<position info="not_deleted" x="266" y="20"/>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="429" y="0"/>
 </item>
-<item historyLabel="products.yml" index="1">
-<position info="not_deleted" x="267" y="0"/>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="267" y="20"/>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="25" y="0"/>
 </item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="index.html.erb | store" index="5">
-<position info="not_deleted" x="213" y="0"/>
+<item historyLabel="application.html.erb" index="1">
+<position/>
 </item>
-<item historyLabel="store.css.scss" index="4">
-<position info="not_deleted" x="339" y="0"/>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="13" y="0"/>
 </item>
-<item historyLabel="store_controller_test.rb" index="0">
-<position info="not_deleted" x="267" y="20"/>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="429" y="0"/>
 </item>
-<item historyLabel="site_test.rb" index="6">
+<item historyLabel="application.html.erb" index="1">
+<position/>
+</item>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="429" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="13" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="sites.yml" index="7">
+<item historyLabel="site.rb" index="4">
+<position info="not_deleted" x="71" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
+<position info="not_deleted" x="1260" y="0"/>
+</item>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
+<position info="not_deleted" x="1295" y="0"/>
+</item>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="264" y="13"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="264" y="13"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="38" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="624" y="0"/>
+</item>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="264" y="13"/>
+</item>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="index.html.erb | store" index="0">
+<position info="not_deleted" x="22" y="0"/>
+</item>
+<item historyLabel="site.rb" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="site_test.rb" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="index.html.erb | sites" index="5">
+<position info="not_deleted" x="125" y="0"/>
 </item>
-<item historyLabel="sites.yml" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="sites.css.scss" index="3">
+<position info="not_deleted" x="264" y="13"/>
 </item>
-<item historyLabel="sites.yml" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="store.css.scss" index="2">
+<position info="not_deleted" x="624" y="0"/>
 </item>
-<item active="true" historyLabel="site_test.rb" index="6">
+<item active="true" historyLabel="viewtopic.php" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -338,11 +369,7 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1743ff4"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -351,34 +378,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="terminalArea"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="viewtopic.php" tooltip="C:\Users\Somayeh Azimi\Desktop\joomla\viewtopic.php">
+<persistable uri="file:/C:/Users/Somayeh%20Azimi/Desktop/joomla/viewtopic.php"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="site.rb" tooltip="F:\Ruby code\cms\app\models\site.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/models/site.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="F:\Ruby code\cms\app\views\sites\index.html.erb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/views/sites/index.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="seeds.rb" tooltip="F:\Ruby code\cms\db\seeds.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/db/seeds.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="test_helper.rb" tooltip="F:\Ruby code\cms\test\test_helper.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/test/test_helper.rb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="site_test.rb" tooltip="F:\Ruby code\cms\test\unit\site_test.rb">
 <persistable uri="file:/F:/Ruby%20code/cms/test/unit/site_test.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.yaml" name="sites.yml" tooltip="F:\Ruby code\cms\test\fixtures\sites.yml">
 <persistable uri="file:/F:/Ruby%20code/cms/test/fixtures/sites.yml"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="F:\Ruby code\depot\app\views\store\index.html.erb">
-<persistable uri="file:/F:/Ruby%20code/depot/app/views/store/index.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="store_controller_test.rb" tooltip="F:\Ruby code\cms\test\functional\store_controller_test.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/test/functional/store_controller_test.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="store.css.scss" tooltip="F:\Ruby code\depot\app\assets\stylesheets\store.css.scss">
-<persistable uri="file:/F:/Ruby%20code/depot/app/assets/stylesheets/store.css.scss"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="sites.css.scss" tooltip="F:\Ruby code\cms\app\assets\stylesheets\sites.css.scss">
+<persistable uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/sites.css.scss"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="products.css.scss" tooltip="F:\Ruby code\depot\app\assets\stylesheets\products.css.scss">
-<persistable uri="file:/F:/Ruby%20code/depot/app/assets/stylesheets/products.css.scss"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.sass" name="store.css.scss" tooltip="F:\Ruby code\cms\app\assets\stylesheets\store.css.scss">
+<persistable uri="file:/F:/Ruby%20code/cms/app/assets/stylesheets/store.css.scss"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="F:\Ruby code\depot\app\views\products\index.html.erb">
-<persistable uri="file:/F:/Ruby%20code/depot/app/views/products/index.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="F:\Ruby code\cms\app\views\layouts\application.html.erb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/views/layouts/application.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.yaml" name="products.yml" tooltip="F:\Ruby code\depot\test\fixtures\products.yml">
-<persistable uri="file:/F:/Ruby%20code/depot/test/fixtures/products.yml"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="F:\Ruby code\cms\app\controllers\application_controller.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/controllers/application_controller.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="store_controller_test.rb" tooltip="F:\Ruby code\depot\test\functional\store_controller_test.rb">
-<persistable uri="file:/F:/Ruby%20code/depot/test/functional/store_controller_test.rb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="index.html.erb" tooltip="F:\Ruby code\cms\app\views\store\index.html.erb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/views/store/index.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="store_controller.rb" tooltip="F:\Ruby code\cms\app\controllers\store_controller.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/app/controllers/store_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="routes.rb" tooltip="F:\Ruby code\cms\config\routes.rb">
+<persistable uri="file:/F:/Ruby%20code/cms/config/routes.rb"/>
 </file>
 </mruList>
 </workbench>

@@ -29,7 +29,7 @@ class SitesControllerTest < ActionController::TestCase
       post :create, :site => @update
     end
 
-    assert_redirected_to site_path(assigns(:site))
+    assert_redirected_to store_path
   end
 
   test "should show site" do
